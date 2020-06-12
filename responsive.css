@@ -1,0 +1,165 @@
+
+
+/* big tablets to 1200px screen*/
+@media only screen and (max-width: 1200px) {
+
+.player-0-panel,
+.player-1-panel {
+    height: 550px;
+    padding: 2% 2%;
+  }
+    
+.player-name {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.player-score {
+    font-size: 60px;
+    margin-bottom: 110px;
+}
+    
+.active .player-name::after{
+    
+    font-size: 40px;
+    top: -5px;
+    right: 85px;
+    
+ }
+    
+.dice {
+    top: 100px;
+    height: 60px;
+}
+    
+}
+    
+     
+    
+    /* small tablets to big tablets 768px to 1023*/
+@media only screen and (max-width: 1023px) {
+
+    .player-0-panel,
+.player-1-panel {
+    height: 480px;
+    padding: 3% 3%;
+  }
+    
+.player-name {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.player-score {
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+    
+.active .player-name::after{
+    
+    font-size: 35px;
+    top: -8px;
+    right: 90px;
+    
+}
+    
+button {
+    font-size: 15px;
+} 
+    .btn-new { top: 25px;}
+    .btn-roll { top: 330px;}
+    .btn-hold { top: 380px;}
+    
+    
+.player-current-box {
+    width: 40%;
+}
+
+.player-current-label {
+    margin-bottom: 11px;
+    font-size: 10px;
+}
+
+.player-current-score {
+    font-size: 20px;
+ }
+
+.dice {
+    top: 100px;
+    height: 75px;
+}
+
+    
+}   
+  
+  
+    
+    /* small phones to small tablets 481px to 767px*/
+@media only screen and (max-width: 767px) {
+   
+    
+.active .player-name::after{
+    
+    font-size: 35px;
+    top: -8px;
+    right: 45px;
+    
+} 
+    
+    
+.dice {
+    height: 60px;
+ }
+    
+}
+    
+    
+/* small phones form 0 to 480px*/
+@media only screen and (max-width: 500px) {
+   
+    
+.player-name {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.player-score {
+    font-size: 60px;
+    margin-bottom: 70px;
+}
+   
+.active .player-name::after{
+    
+    font-size: 20px;
+    top: 6px;
+    right: 15px;
+    
+} 
+
+.btn-new { top: 25px;}
+.btn-roll { top: 350px;}
+.btn-hold { top: 390px;}
+
+.dice {
+    height: 55px;
+    top: 120px;
+ }
+       
+.player-current-box {
+    width: 40%;
+}
+
+.player-current-label {
+    margin-bottom: 11px;
+    font-size: 10px;
+}
+
+.player-current-score {
+    font-size: 20px;
+ }
+    
+    
+}
